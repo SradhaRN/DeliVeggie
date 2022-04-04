@@ -5,7 +5,7 @@ The solution contains:
 
 2.DeliVeggie - A Web api with ProductController. The endpoints are available in Swagger
 
-3.DeliVeggie.RabbitMQ - Publishes the requset from controller
+3.DeliVeggie.RabbitMQ - Publishes the request from controller
 
 4.DeliVeggie.Product.Service - A service that handles the requests published from DeliVeggie.RabbitMQ
 
