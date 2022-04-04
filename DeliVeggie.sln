@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliVeggie", "DeliVeggie\DeliVeggie.csproj", "{322851D0-FA89-4A1B-A287-80332A15DBD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliVeggie.RabbitMQ", "DeliVeggie.RabbitMQ\DeliVeggie.RabbitMQ.csproj", "{52BDFD4E-E920-4E0D-9074-F28FBAA73D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliVeggie.Models", "DeliVeggie.Models\DeliVeggie.Models.csproj", "{81F3E4BA-BF5C-49E4-AC09-7E0C34A67C7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliVeggie.MongoDB", "DeliVeggie.MongoDB\DeliVeggie.MongoDB.csproj", "{18E95FB5-D84E-44F3-A71F-BD14EC990ED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliVeggie.Product.Service", "DeliVeggie.Product.Service\DeliVeggie.Product.Service.csproj", "{F5292C1E-FD69-4B11-B1AF-2CCE3675B754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliVeggie.Tests", "DeliVeggie.Tests\DeliVeggie.Tests.csproj", "{695F16B7-FB20-41E6-9E53-06529FDF5F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{322851D0-FA89-4A1B-A287-80332A15DBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322851D0-FA89-4A1B-A287-80332A15DBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322851D0-FA89-4A1B-A287-80332A15DBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322851D0-FA89-4A1B-A287-80332A15DBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BDFD4E-E920-4E0D-9074-F28FBAA73D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BDFD4E-E920-4E0D-9074-F28FBAA73D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BDFD4E-E920-4E0D-9074-F28FBAA73D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BDFD4E-E920-4E0D-9074-F28FBAA73D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F3E4BA-BF5C-49E4-AC09-7E0C34A67C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F3E4BA-BF5C-49E4-AC09-7E0C34A67C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F3E4BA-BF5C-49E4-AC09-7E0C34A67C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F3E4BA-BF5C-49E4-AC09-7E0C34A67C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E95FB5-D84E-44F3-A71F-BD14EC990ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E95FB5-D84E-44F3-A71F-BD14EC990ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E95FB5-D84E-44F3-A71F-BD14EC990ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E95FB5-D84E-44F3-A71F-BD14EC990ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5292C1E-FD69-4B11-B1AF-2CCE3675B754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5292C1E-FD69-4B11-B1AF-2CCE3675B754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5292C1E-FD69-4B11-B1AF-2CCE3675B754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5292C1E-FD69-4B11-B1AF-2CCE3675B754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695F16B7-FB20-41E6-9E53-06529FDF5F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695F16B7-FB20-41E6-9E53-06529FDF5F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695F16B7-FB20-41E6-9E53-06529FDF5F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695F16B7-FB20-41E6-9E53-06529FDF5F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD0EAB95-CFA4-4B5E-B7D2-550FCFC30A53}
+	EndGlobalSection
+EndGlobal
